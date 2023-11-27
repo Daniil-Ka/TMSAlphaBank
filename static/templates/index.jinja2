@@ -24,14 +24,13 @@
                 <div class="container">
                     <div class="row text-white">
                         <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto text-center form p-4">
-                            <h1 class="display-4 py-2 text-truncate">Заголовок</h1>
+                            <h1 ><b>Перевод названия судов <br/> в творительный падеж</b></h1>
                             <div class="px-2">
                                 <form hx-post="/compute-render" hx-target="#result" hx-swap="outerHTML" class="justify-content-center">
                                     <div class="form-group">
-                                        <label class="sr-only">Текст</label>
                                         <input type="text" name="text" class="form-control">
                                     </div>
-                                    <button type="submit" class="btn btn-primary btn-lg">Перевести</button>
+                                    <button type="submit" class="btn btn-primary btn-lg" id="button">Изменить падеж</button>
                                 </form>
 
                                 <div id="result" class="fadeIn"></div>

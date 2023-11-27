@@ -3,3 +3,8 @@ uvicorn
 Jinja2
 python-multipart
 fastapi-htmx
+keras
+pydantic
+starlette
+numpy
+tensorflow
