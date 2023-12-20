@@ -8,3 +8,5 @@ pydantic
 starlette
 numpy
 tensorflow
+
+gdown
